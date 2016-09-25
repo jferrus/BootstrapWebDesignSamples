@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!-- My css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="signup-form-container">
+                         <!-- form start -->
+                        <form role="form" id="form-horizontal" autocomplete="off">
+                            <div class="form-header">
+                                <h3 class="form-title"><i class="fa fa-user"></i> Añadir Cambio</h3>
+                            </div>
+
+                            <div class="form-body">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group col-md-12">
+                                            <label for="kilos-oliva" class="col-md-4 control-label">Kg Oliva</label>
+                                            <div class="col-md-8 control-label">
+                                                <input id="kilos-oliva" type="number" class="form-control" placeholder="Kg">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <label for="rendimiento" class="col-md-4 control-label">Rendimiento</label>
+                                            <div class="col-md-8 control-label">
+                                                <input id="rendimiento" type="number" class="form-control" placeholder="%">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <label for="maquila" class="col-md-4 control-label">Maquila</label>
+                                            <div class="col-md-8 control-label">
+                                                <input id="maquila" type="number" class="form-control" placeholder="%">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <label for="litros-cambio" class="col-md-4 control-label">Litros cambio</label>
+                                            <div class="col-md-8 control-label">
+                                                <input id="litros-cambio" type="number" class="form-control" placeholder="litros">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <label for="litros-retirar" class="col-md-4 control-label">Litros Retirar</label>
+                                            <div class="col-md-8 control-label">
+                                                <input id="litros-retirar" type="number" class="form-control" placeholder="litros">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-sm-12">
+                                            <div class="form-group col-sm-3">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input id="factura" type="checkbox" value="">
+                                                            Factura
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-sm-3">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input id="pagado" type="checkbox" value="">
+                                                            Pagado
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-sm-3">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input id="factura" type="checkbox" value="">
+                                                            Subencionado
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-sm-3">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input id="retira" type="checkbox" value="">
+                                                            Retira
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End col1 -->
+
+                                    <div class="col-md-6">
+                                        <div class="form-group col-md-12">
+                                            <label for="observaciones" class="col-md-12 control-label">Observaciones</label>
+                                            <div class="col-md-12 control-label">
+                                                <textarea id="observaciones" class="form-control" rows="10" placeholder="Inserte aquí su comentario"></textarea>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End col2 -->
+                                </div><!-- End row 1-->
+                            <div class="form-footer">
+                                 <button type="submit" class="btn btn-success">
+                                     <span class="glyphicon glyphicon-save"></span>
+                                     Guardar
+                                 </button>
+                            </div>
+                        </form> <!-- End form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

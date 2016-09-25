@@ -1,0 +1,11 @@
+/*This is my CSS file*/
+
+.bg-cover{
+    background: url("../img/joker1.jpg");
+    height: 300px;
+    background-size: cover;
+}
+
+.my-sidebar{
+    margin-top: 20px;
+}

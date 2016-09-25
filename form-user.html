@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!-- My css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="signup-form-container">
+                         <!-- form start -->
+                        <form role="form" id="register-form" autocomplete="off">
+                            <div class="form-header">
+                                <h3 class="form-title"><i class="fa fa-user"></i> Registrar cliente</h3>
+                            </div>
+
+                            <div class="form-body">
+
+                                <div class="row">
+                                    <div class="form-group col-lg-6">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-user"></span>
+                                            </div>
+                                            <input name="name" type="text" class="form-control" placeholder="Nombre de cliente">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-lg-6">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-credit-card"></span>
+                                            </div>
+                                            <input name="dni" type="text" class="form-control" placeholder="DNI">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-lg-6">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-phone"></span>
+                                            </div>
+                                            <input name="movile" id="movile" type="text" class="form-control" placeholder="Número de móvil" maxlength="9">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-lg-6">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-earphone"></span>
+                                            </div>
+                                            <input name="earphone" id="earphone" type="text" class="form-control" placeholder="Número de fijo" maxlength="9">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon">
+                                            <span class="glyphicon glyphicon-envelope"></span>
+                                        </div>
+                                        <input name="email" type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="form-group col-lg-6">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <span class="glyphicon glyphicon-home"></span>
+                                            </div>
+                                            <input name="adress" type="text" class="form-control" placeholder="Calle">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group col-lg-2">
+                                        <input name="adress" type="text" class="form-control" placeholder="Número">
+                                    </div>
+
+                                    <div class="form-group col-lg-2">
+                                        <input name="city" type="text" class="form-control" placeholder="Población">
+                                    </div>
+
+                                    <div class="form-group col-lg-2">
+                                        <input name="zip" type="text" class="form-control" placeholder="Código Postal">
+                                    </div>
+                                </div>
+
+                            <div class="form-footer">
+                                 <button type="submit" class="btn btn-success">
+                                     <span class="glyphicon glyphicon-log-in"></span>
+                                     Registrar
+                                 </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
